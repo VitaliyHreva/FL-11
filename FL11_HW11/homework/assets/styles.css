@@ -1,0 +1,53 @@
+body {
+  max-width: 900px;
+  margin: auto;
+}
+.todo_header {
+  color: lightblue;
+}
+.todo_header, .add_list {
+  text-align: center;
+}
+.add_list {
+  display: flex;
+  justify-content: center;
+}
+#user_acttion {
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 900px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+#add_action_icon:hover, i:hover {
+  cursor: pointer;
+}
+#add_action_icon {
+  border: none;
+  background: none;
+}
+#add_action_icon i {
+  font-size: 50px;
+  color: lightgrey;
+  padding-bottom: 15px;
+}
+hr {
+  margin-bottom: 15px;
+  height: 3px;
+  background: lightblue;
+  border: none;
+}
+#my_list i {
+  color: lightblue;
+}
+.todo_list ul {
+  list-style-type: none;
+}
+.todo_task {
+  font-size: 20px;
+  color: skyblue;
+}
+li i:last-child {
+  float: right;
+}
